@@ -1,0 +1,738 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(40, 38, 38) !important;
+    color: white !important;
+}
+.first-section
+{
+    background-image: url("../picture/gympage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar
+{
+    background-color: rgba(99, 97, 97, 0.704) !important;
+}
+
+#links a:hover
+{
+    color: rgb(255, 85, 0) !important ;
+    font-weight: bold !important ;
+    transition: all 0,7s !important ;
+    cursor: pointer;
+}
+#joinus 
+{
+    margin-top: 50%;
+    margin-right: 20vh;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 85, 0);
+    padding: 90px;
+    width: 200px ;
+    height: px;
+}
+#top
+{
+    margin-top: -5px;
+    font-size: 27px;
+}
+#orange
+{
+    color: rgb(255, 85, 0);
+}
+#welcome
+{
+    color: white;
+    margin-left: 10%;
+    padding-top: 30%;
+}
+#welcome button
+{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    margin: 20px;
+}
+#welcome h1
+{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+#welcome a
+{
+    background-color: rgb(255, 85, 0);
+    padding: 17px;
+}
+#welcome p
+{
+    color: rgba(255, 255, 255, 0.792);
+}
+.second-section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgb(71, 68, 68);
+}
+#left
+{
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 8%;
+
+}
+#right
+{
+    padding-right: 9%;
+}
+@media screen and (max-width: 1200px) {
+    .second-section{
+        display: flex;
+        flex-direction: column;
+    }
+    #right
+    {
+        margin-left: 20%;
+    } 
+}
+#right img
+{
+    margin: 7px;
+}
+#left p
+{
+    color: rgba(255, 255, 255, 0.752);
+}
+#left a
+{
+    text-decoration: none;
+    color: rgb(255, 85, 0);
+}
+.forth-sections
+{
+    background-color: rgb(55, 53, 53);
+}
+@media screen and (max-width: 1200px) {
+    #side1
+    {
+       display: flex;
+       flex-direction: column;
+    }
+    #side1 img, #side2 img
+    {
+        margin-left: 20%;
+    }
+    #side2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+#side1
+{
+    display: flex;
+    padding: 20px;
+    padding-top: 10vh;
+}
+#side2
+{
+    display: flex;
+    padding: 20px;
+    padding-top: 10vh;
+}
+#right1
+{
+    
+    padding: 40px;
+}
+#right1 p
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.766);
+    padding-top: 5vh;
+}
+#right1 h1
+{
+    font-size: 45px;
+    color: black;
+}
+#right1 a
+{
+    text-decoration: none;
+    color: rgb(255, 85, 0);
+    margin-top: 10px;
+    font-family: 'montserrat', sans-serif;
+}
+#left1
+{
+   padding: 50px;
+   text-align: left;
+}
+#left1 p
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.766);
+    padding-top: 10vh;
+}
+#left1 h1
+{
+    font-size: 45px;
+    color: black;
+}
+.third-section
+{
+    padding-top: 10%;
+    background-color: rgb(21, 20, 20);
+    padding: 50px;
+}
+#third-page
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}    
+@media screen and (max-width: 1300px) {
+    #third-page {
+        grid-template-columns: 1fr 1fr  ;
+    }
+}
+@media screen and (max-width: 850px) {
+    #third-page{
+
+        grid-template-columns: 1fr;
+    }
+    
+}
+#coach h1
+{
+    font-size: 20px;
+    color: rgb(255, 85, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+#coach
+{
+    margin: 20px;
+    text-align: center;
+}
+#coach img
+{
+    border-radius: 50%;
+    margin: 40px;
+}
+#coach p
+{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.422);
+
+}
+#coach i
+{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.third-section h1
+{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.third-section p
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.forth-section
+{
+    background-color: rgb(27, 27, 27);
+}
+#forth-page 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+@media screen and (max-width:900px) {
+    #forth-page{
+        grid-template-columns: 1fr;
+    }
+}
+#classes
+{
+    text-align: center;
+    margin: 40px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+#classes:hover
+{
+    transition: all 0.7s;
+    background-color: rgb(255, 85, 0);
+}
+#classes h1
+{
+    color: black;
+    padding: 25px;
+}
+#classes p
+{
+    color: rgba(0, 0, 0, 0.838);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+}
+#titre 
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    color: rgb(255, 85, 0);
+}
+.six-section
+{
+    padding: 20px;
+    color: white;
+    background-color: rgb(49, 48, 48);
+
+}
+.six-section button
+{
+    border: none;
+    background-color: rgb(255, 85, 0);
+    color: black;
+    padding: 20px;
+    width: 150px;
+}
+#workout h1
+{
+    font-size: 35px;
+}
+#six-page
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+#sign
+{
+    margin-right: 18%;
+}
+#sign h1
+{
+    font-size: 35px;
+}
+#sign p
+{
+    color: rgba(255, 255, 255, 0.786);
+    font-family: 'Courier New', Courier, monospace;
+}
+#main input
+{
+    padding: 27px;
+    height: 20px;
+    width: 400px;
+}
+.last
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.seven-section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+@media screen and (max-width: 1000px) {
+    .seven-section{
+        display: flex;
+        flex-direction: column;
+    }
+    #pic
+    {
+        margin-left: 20%;
+    }
+    
+}
+#member
+{
+    display: flex;
+    padding-top: 7%;
+    padding-left: 8%;
+   
+}
+@media screen and (max-width: 1000px) {
+    #member
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #offer
+    {
+       margin: 30px !;
+    }
+    #text
+    {
+        margin-left: -10px !important;
+    }
+    .offers h1{
+        font-size: 70px !important ;
+    }
+    .offers h4
+    {
+        font-size: 50px !important ;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .offers h1
+    {
+     font-size: 120px !important;
+    }
+    .offers h4
+    {
+        font-size: 40px !important;
+    }
+    
+}
+@media screen and (max-width: 850px) {
+    .offers h1
+    {
+        font-size:60px !important;
+        text-align: center;
+    }
+    .offers h4
+     {
+        font-size: 40px !important;
+        margin-top: -4px !important;
+     }    
+}
+@media screen and (max-width: 650px){
+    .offers h1
+    {
+        font-size: 40px !important;
+    }
+    .offers h4
+    {
+        font-size: 20px !important;
+        margin-top: -0,5px !important;
+    }
+}
+#take
+{
+    text-align: center;
+}
+#offer  a
+{
+    text-decoration: none;
+    color: white;
+}
+.offers
+{
+    padding: 7vh;
+    background-color: rgb(19, 18, 18);
+}
+.offers h1
+{
+    margin-left: 10%;
+    color: rgba(255, 255, 255, 0.086);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 160px;
+} 
+.offers h4
+{
+   margin-left: 30%;
+   margin-top: -7%;
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 70px;
+}  
+#offer
+{
+    color: black;
+    background-color: white;
+    padding: 50px;
+} 
+#offer:hover
+{
+    transition: all 0.7s;
+    background-color: rgb(255, 85, 0);
+}
+#offer button
+{
+    color: white;
+    background-color: rgb(255, 85, 0);
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 6px;
+    width: 200px;
+    font-size: 15px;
+
+}
+.up
+{
+    margin-top: -20px  ;
+    background-color: rgb(255, 85, 0) !important ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.up button
+{
+    background-color: black !important;
+    margin-left: 10% !important;
+}
+#month
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+#timer
+{
+    font-size: 60px;
+    padding: 30px;
+}
+#welcome
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+#center
+{
+    margin-top: 7%;
+}
+#center i
+{
+    font-size: 80px;
+    color: rgb(255, 85, 0);
+}
+#space
+{
+    margin: 40px;
+}
+.eight-section
+{
+    background-color: rgb(87, 85, 85);
+    color: white;
+    padding: 40px;
+}
+.eight-section h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+#eight-page
+{
+    display: flex;
+    justify-content: space-around !important ;
+}
+#says a
+{
+    text-decoration: none;
+    color: white;
+}
+#say
+{
+    margin-top: 6%;
+    margin-left: 30px;
+}
+#say i
+{
+    font-size: 25px;
+    margin: 10px;
+}
+#say p
+{
+    color: rgba(255, 255, 255, 0.762);
+    font-family: 'Courier New', Courier, monospace;
+}
+#eight-page button 
+{
+  background-color: rgb(255, 85, 0);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin-top: 5%;
+  padding: 6px;
+  width: 200px;
+  font-size: 15px;
+
+}
+#says
+{
+    margin-top: 4%;
+    font-size: 35px;
+}
+#says label
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.739);
+    font-size: 20px;
+}
+#says ::placeholder
+{
+    font-size: 15px;
+}
+#says input
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(240, 248, 255, 0);
+    border-bottom:1px solid ;
+
+}
+footer
+{
+    background-color: white;
+    color: black;
+}
+footer i
+{
+    font-size: 40px;
+    color: rgb(255, 85, 0);
+    margin: 10px;
+}
+#contact i
+{
+    font-size: 20px;
+}
+#copyright
+{
+    background-color: black;
+    color: rgb(255, 85, 0);
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+/*shop*/
+#product
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-row: 1fr 1fr;
+    grid-gap : 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: black;
+    
+}
+@media screen and (max-width: 1200px) {
+    #product
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width:900px){
+    #product
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    #product
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
+#product a
+{
+background-color: blue;
+}
+#button
+{
+    margin-left: 40%;
+    border-color: white;
+    margin-top: 10%;
+}
+.modal-body input
+{
+    padding: 10px;
+    margin-top: 30px;
+    width: 80%;
+}
+.modal-body textarea
+{
+    padding: 10px;
+    margin-top: 30px;
+    width: 80%;
+}
+#centers
+{
+    display: flex;
+    align-items: center;
+}
+#product img
+{
+    width: 285px ;
+    height: 270px;
+}
+/*animation*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+header {
+	flex: 1;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+.counters {
+	background: black;
+	color: white;
+	padding: 40px 20px;
+	border-top: 3px lightskyblue solid;
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+}
+
+.counters i {
+	color: lightskyblue;
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+	.counters .container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.counters .container > div:nth-of-type(1),
+	.counters .container > div:nth-of-type(2) {
+		border-bottom: 1px lightskyblue solid;
+		padding-bottom: 20px;
+	}
+}
